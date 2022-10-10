@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+ </head>
+
+ <body>
+      <nav class="navbar navbar-expand-lg" style="background-color: #4185a0;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="first.html" style="color: white;"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="first.html" style="color: white;">Track new product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="second.html" style="color: white;">Untrack product </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="third.html" style="color: white;">Found posts </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Products you are tracking 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample"  aria-controls="offcanvasExample" style="color: white;">
+                Last 24h activity
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- offcanvas for notifications-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Posts found TODAY: </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="notif">
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for keywords-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Products you are tracking: </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mK">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="main.js" type ="module" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+
+</html>

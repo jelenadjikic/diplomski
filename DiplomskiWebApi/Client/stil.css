@@ -1,0 +1,115 @@
+.ContAddingKeyword,.ContDeletingKeyword,.ContTrackedKeywords,.ContShowKeywords{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly;
+    border-collapse: collapse;
+
+    width: 100%; 
+}
+.contShow{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly;
+
+    border-collapse: collapse;
+    background-color: #4185a0;
+    opacity: 0.95;
+
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.alertsCont{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;  
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.contInput,.contDelete,.contSee{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+
+    border-collapse: collapse;
+    background-color: #4185a0;
+    opacity: 0.95;
+
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;  
+}
+.contShow{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly;
+
+    border-collapse: collapse;
+    background-color: #4185a0;
+    opacity: 0.95;
+
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;   
+}
+.contForm{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    height: 400px;
+
+}
+[class^="textboxInput"]{
+    text-align: center;
+    width: 600px;
+}
+.labela{
+    color: aliceblue;
+    font-size: large;
+}
+@media only screen and (max-width:300px){
+    .ContAddingKeyword,.ContDeletingKeyword,.ContTrackedKeywords,.ContShowKeywords{
+       width:100px;
+       height: 100%;
+    }
+}
+.th{
+    color:white;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+table,tr,th,td{
+    border-collapse:collapse;
+  }
+
+.Results{
+    display: flex;  
+    flex-direction: column;
+   
+  }
+.divZaTabelu{
+    overflow:auto;
+    max-height:300px;
+    margin-bottom: 20px;
+  }
+
+  a:any-link { color: rgb(34, 34, 34) }
