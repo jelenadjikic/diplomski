@@ -1,7 +1,7 @@
-# Real-Time Product Monitoring System
+# Data Stream Processing System
 ## Obrada toka podataka korišćenjem Apache Spark platforme
 
-A comprehensive project developed for bachelor's thesis that implements a real-time product monitoring system using Apache Kafka, Apache Spark, and .NET Web API. The system processes product submissions from various sources, performs keyword matching with configurable criteria, and provides a web interface for tracking and monitoring products.
+A comprehensive project developed for bachelor's thesis that implements a data stream processing system using Apache Kafka, Apache Spark, and .NET Web API. The system processes product submissions from various sources, performs keyword matching with configurable criteria, and provides a web interface for tracking and monitoring products.
 
 ## 🏗️ Architecture Overview
 
